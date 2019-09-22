@@ -3,7 +3,7 @@
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    private Camera cam;
+    private Camera cam = null;
 
     private Vector3 _velocity = Vector3.zero;
     private Vector3 _rotation = Vector3.zero;
